@@ -375,8 +375,7 @@ module OneLogin
           :validate_issuer,
           :validate_session_expiration,
           :validate_subject_confirmation,
-          :validate_name_id,
-          :validate_signature
+          :validate_name_id
         ]
 
         if collect_errors
